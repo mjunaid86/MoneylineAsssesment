@@ -1,0 +1,26 @@
+{
+  "name": "moneyline",
+  "version": "1.0.0",
+  "description": "moneyline assessment",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon .",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "moneyline"
+  },
+  "author": "Junaid",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "pg": "^8.7.1",
+    "pino": "^6.13.0",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.2.0"
+  }
+}
